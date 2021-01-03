@@ -13,6 +13,9 @@ import org.hibernate.validator.constraints.br.CPF;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
+import io.github.nauam.service.validation.ContaInsert;
+
+@ContaInsert
 public class ContaDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
 
